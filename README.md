@@ -5,15 +5,15 @@ Deploy do Zabbix via Docker para estudo de monitoramento de infraestrutura e dis
 
 Este repositório documenta a implantação de um ambiente de monitoramento utilizando o **Zabbix** rodando em containers **Docker** (via Docker Desktop no Windows).
 
-## 🎯 Objetivo
+## Objetivo
 Subir um servidor Zabbix para monitorar hosts, coletar métricas de infraestrutura e acompanhar a disponibilidade de serviços, servindo como laboratório de estudos em operações de TI.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 *   **Docker / Docker Desktop** (Windows)
 *   **Zabbix** (Server, Frontend e Banco de Dados)
 *   **Windows** (Ambiente host)
 
-## 🚀 Como foi feito o Deploy
+## Como foi feito o Deploy
 O deploy foi realizado utilizando o Docker Compose. Abaixo está o arquivo de configuração utilizado:
 
 ```yaml
